@@ -171,8 +171,6 @@
 - slug: twitter-search-api-pahts
   title: Twitter Search API Paths
   description: >-
-    The Twitter Search API - https://dev.twitter.com/rest/public/search
-
     <p>The Twitter Search API is the primary API path which developers will be
     using to discover data on the Twitter API.  The Twitter Search API searches
     against a sampling of recent Tweets published in the past 7 days, making it
@@ -182,15 +180,15 @@
 
     <ul>
 
-    <li><strong>GET saved_searches/list - Returns the authenticated user’s saved
-    search queries.
+    <li><strong>GET saved_searches/list</strong> - Returns the authenticated
+    user’s saved search queries.</li>
 
-    <li><strong>GET saved_searches/show/:id - Retrieve the information for the
-    saved search represented by the given id. The authenticating user must be
-    the owner of saved search ID being requested.
+    <li><strong>GET saved_searches/show/:id</strong> - Retrieve the information
+    for the saved search represented by the given id. The authenticating user
+    must be the owner of saved search ID being requested.</li>
 
-    <li><strong>GET search/tweets - Returns a collection of relevant Tweets
-    matching a specified query.
+    <li><strong>GET search/tweets</strong> - Returns a collection of relevant
+    Tweets matching a specified query.</li>
 
     </ul>
 
@@ -223,31 +221,32 @@
 
     <ul>
 
-    <li><strong>GET users/lookup - Returns fully-hydrated user objects for up to
-    100 users per request, as specified by comma-separated values passed to the
-    user_id and/or screen_name parameters.
+    <li><strong>GET users/lookup</strong></strong> - Returns fully-hydrated user
+    objects for up to 100 users per request, as specified by comma-separated
+    values passed to the user_id and/or screen_name parameters.</li>
 
-    <li><strong>GET users/profile_banner - Returns a map of the available size
-    variations of the specified user’s profile banner. If the user has not
-    uploaded a profile banner, a HTTP 404 will be served instead.
+    <li><strong>GET users/profile_banner</strong> - Returns a map of the
+    available size variations of the specified user’s profile banner. If the
+    user has not uploaded a profile banner, a HTTP 404 will be served
+    instead.</li>
 
-    <li><strong>GET users/search - Provides a simple, relevance-based search
-    interface to public user accounts on Twitter. Try querying by topical
-    interest, full name, company name, location, or other criteria
+    <li><strong>GET users/search</strong> - Provides a simple, relevance-based
+    search interface to public user accounts on Twitter. Try querying by topical
+    interest, full name, company name, location, or other criteria.</li>
 
-    <li><strong>GET users/show - Returns a variety of information about the user
-    specified by the required user_id or screen_name parameter. The author’s
-    most recent Tweet will be returned inline when possible.
+    <li><strong>GET users/show</strong> - Returns a variety of information about
+    the user specified by the required user_id or screen_name parameter. The
+    author’s most recent Tweet will be returned inline when possible.</li>
 
-    <li><strong>GET users/suggestions - Access to Twitter’s suggested user list.
-    This returns the list of suggested user categories.
+    <li><strong>GET users/suggestions</strong> - Access to Twitter’s suggested
+    user list. This returns the list of suggested user categories.</li>
 
-    <li><strong>GET users/suggestions/:slug - Access the users in a given
-    category of the Twitter suggested user list.
+    <li><strong>GET users/suggestions/:slug</strong> - Access the users in a
+    given category of the Twitter suggested user list.</li>
 
-    <li><strong>GET users/suggestions/:slug/members - Access the users in a
-    given category of the Twitter suggested user list and return their most
-    recent status if they are not a protected user.
+    <li><strong>GET users/suggestions/:slug/members</strong> - Access the users
+    in a given category of the Twitter suggested user list and return their most
+    recent status if they are not a protected user.</li>
 
     </ul>
 
@@ -268,7 +267,7 @@
   issue: ''
 - slug: twitter-follower-and-friends-api
   title: Twitter Followers & Friends API Paths
-  description: >
+  description: >-
     <p>Beyond managing individual users you can also manage the followers and
     friends for each Twitter user, allowing for the programmatic managmeent of
     the releationships that go on between users. The followers and friend
@@ -279,37 +278,38 @@
 
     <ul>
 
-    <li><strong>GET followers/ids - Returns a cursored collection of user IDs
-    for every user following the specified user.
+    <li><strong>GET followers/ids</strong> - Returns a cursored collection of
+    user IDs for every user following the specified user.</li>
 
-    <li><strong>GET followers/list - Returns a cursored collection of user
-    objects for users following the specified user.
+    <li><strong>GET followers/list</strong> - Returns a cursored collection of
+    user objects for users following the specified user.</li>
 
-    <li><strong>GET friends/ids - Returns a cursored collection of user IDs for
-    every user the specified user is following (otherwise known as their
-    “friends”).
+    <li><strong>GET friends/ids</strong> - Returns a cursored collection of user
+    IDs for every user the specified user is following (otherwise known as their
+    “friends”).</li>
 
-    <li><strong>GET friends/list - Returns a cursored collection of user objects
-    for every user the specified user is following (otherwise known as their
-    “friends”).
+    <li><strong>GET friends/list</strong> - Returns a cursored collection of
+    user objects for every user the specified user is following (otherwise known
+    as their “friends”).</li>
 
-    <li><strong>GET friendships/incoming - Returns a collection of numeric IDs
-    for every user who has a pending request to follow the authenticating user.
+    <li><strong>GET friendships/incoming</strong> - Returns a collection of
+    numeric IDs for every user who has a pending request to follow the
+    authenticating user.</li>
 
-    <li><strong>GET friendships/lookup - Returns the relationships of the
-    authenticating user to the comma-separated list of up to 100 screen_names or
-    user_ids provided.
+    <li><strong>GET friendships/lookup</strong> - Returns the relationships of
+    the authenticating user to the comma-separated list of up to 100
+    screen_names or user_ids provided.</li>
 
-    <li><strong>GET friendships/no_retweets/ids - Returns a collection of
-    user_ids that the currently authenticated user does not want to receive
-    retweets from.
+    <li><strong>GET friendships/no_retweets/ids</strong> - Returns a collection
+    of user_ids that the currently authenticated user does not want to receive
+    retweets from.</li>
 
-    <li><strong>GET friendships/outgoing - Returns a collection of numeric IDs
-    for every protected user for whom the authenticating user has a pending
-    follow request.
+    <li><strong>GET friendships/outgoing</strong> - Returns a collection of
+    numeric IDs for every protected user for whom the authenticating user has a
+    pending follow request.</li>
 
-    <li><strong>GET friendships/show - Returns detailed information about the
-    relationship between two arbitrary users.
+    <li><strong>GET friendships/show</strong> - Returns detailed information
+    about the relationship between two arbitrary users.</li>
 
     </ul>
 
@@ -339,37 +339,40 @@
 
     <ul>
 
-    <li><strong>GET statuses/home_timeline - Returns a collection of the most
-    recent Tweets and retweets posted by the authenticating user and the users
-    they follow.
+    <li><strong>GET statuses/home_timeline</strong> - Returns a collection of
+    the most recent Tweets and retweets posted by the authenticating user and
+    the users they follow. </li>
 
-    <li><strong>GET statuses/lookup - Returns fully-hydrated Tweet objects for
-    up to 100 Tweets per request, as specified by comma-separated values passed
-    to the id parameter.
+    <li><strong>GET statuses/lookup</strong> - Returns fully-hydrated Tweet
+    objects for up to 100 Tweets per request, as specified by comma-separated
+    values passed to the id parameter.</li>
 
-    <li><strong>GET statuses/mentions_timeline - Returns the 20 most recent
-    mentions (Tweets containing a users’s @screen_name) for the authenticating
-    user.
+    <li><strong>GET statuses/mentions_timeline</strong> - Returns the 20 most
+    recent mentions (Tweets containing a users’s @screen_name) for the
+    authenticating user.</li>
 
-    <li><strong>GET statuses/oembed - Returns a single Tweet, specified by
-    either a Tweet web URL or the Tweet ID, in an oEmbed-compatible format.
+    <li><strong>GET statuses/oembed</strong> - Returns a single Tweet, specified
+    by either a Tweet web URL or the Tweet ID, in an oEmbed-compatible
+    format.</li>
 
-    <li><strong>GET statuses/retweeters/ids - Returns a collection of up to 100
-    user IDs belonging to users who have retweeted the Tweet specified by the id
-    parameter.
+    <li><strong>GET statuses/retweeters/ids</strong> - Returns a collection of
+    up to 100 user IDs belonging to users who have retweeted the Tweet specified
+    by the id parameter.</li>
 
-    <li><strong>GET statuses/retweets/:id - Returns a collection of the 100 most
-    recent retweets of the Tweet specified by the id parameter.
+    <li><strong>GET statuses/retweets/:id</strong> - Returns a collection of the
+    100 most recent retweets of the Tweet specified by the id parameter.</li>
 
-    <li><strong>GET statuses/retweets_of_me - Returns the most recent Tweets
-    authored by the authenticating user that have been retweeted by others.
+    <li><strong>GET statuses/retweets_of_me</strong> - Returns the most recent
+    Tweets authored by the authenticating user that have been retweeted by
+    others.</li>
 
-    <li><strong>GET statuses/show/:id - Returns a single Tweet, specified by the
-    id parameter. The Tweet’s author will also be embedded within the Tweet.
+    <li><strong>GET statuses/show/:id</strong> - Returns a single Tweet,
+    specified by the id parameter. The Tweet’s author will also be embedded
+    within the Tweet.</li>
 
-    <li><strong>GET statuses/user_timeline - Returns a collection of the most
-    recent Tweets posted by the user indicated by the screen_name or user_id
-    parameters.
+    <li><strong>GET statuses/user_timeline</strong> - Returns a collection of
+    the most recent Tweets posted by the user indicated by the screen_name or
+    user_id parameters.</li>
 
     </ul>
 
@@ -450,29 +453,30 @@
 
     <ul>
 
-    <li><strong>Tweet at new Twitter followers -
-    https://zapier.com/zapbook/zaps/12461/tweet-at-new-twitter-followers/
+    <li><strong>Tweet at new Twitter followers</strong> -
+    https://zapier.com/zapbook/zaps/12461/tweet-at-new-twitter-followers/</li>
 
-    <li><strong>Copy tweets across multiple Twitter accounts -
-    https://zapier.com/zapbook/zaps/9165/copy-tweets-across-multiple-twitter-accounts/
+    <li><strong>Copy tweets across multiple Twitter accounts</strong> -
+    https://zapier.com/zapbook/zaps/9165/copy-tweets-across-multiple-twitter-accounts/</li>
 
-    <li><strong>Post your new tweets to a Facebook Page -
-    https://zapier.com/zapbook/zaps/1302/post-my-twitter-updates-to-my-facebook-timeline/
+    <li><strong>Post your new tweets to a Facebook Page</strong> -
+    https://zapier.com/zapbook/zaps/1302/post-my-twitter-updates-to-my-facebook-timeline/</li>
 
-    <li><strong>Share New LinkedIn Updates with Content From Your Tweets -
-    https://zapier.com/zapbook/zaps/546/share-new-linkedin-posts-with-content-from-your-tweets/
+    <li><strong>Share New LinkedIn Updates with Content From Your
+    Tweets</strong> -
+    https://zapier.com/zapbook/zaps/546/share-new-linkedin-posts-with-content-from-your-tweets/</li>
 
-    <li><strong>Save Twitter mentions to a Google Sheets spreadsheet -
-    https://zapier.com/zapbook/zaps/135/save-twitter-mentions-to-a-google-sheets-spreadsheet/
+    <li><strong>Save Twitter mentions to a Google Sheets spreadsheet</strong> -
+    https://zapier.com/zapbook/zaps/135/save-twitter-mentions-to-a-google-sheets-spreadsheet/</li>
 
-    <li><strong>Publish Your RSS Feed to Twitter -
-    https://zapier.com/zapbook/zaps/233/publish-your-rss-feed-to-twitter/
+    <li><strong>Publish Your RSS Feed to Twitter</strong> -
+    https://zapier.com/zapbook/zaps/233/publish-your-rss-feed-to-twitter/</li>
 
-    <li><strong>Share new Tweets from a Twitter list in Slack -
-    https://zapier.com/zapbook/zaps/199/send-tweets-your-teams-slack-channel/
+    <li><strong>Share new Tweets from a Twitter list in Slack</strong> -
+    https://zapier.com/zapbook/zaps/199/send-tweets-your-teams-slack-channel/</li>
 
-    <li><strong>Build a Twitter list from Twitter search results -
-    https://zapier.com/zapbook/zaps/4029/add-twitter-users-who-mention-a-specific-term-to-a-custom-list/
+    <li><strong>Build a Twitter list from Twitter search results</strong> -
+    https://zapier.com/zapbook/zaps/4029/add-twitter-users-who-mention-a-specific-term-to-a-custom-list/</li>
 
     </ul>
 
