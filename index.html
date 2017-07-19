@@ -8,8 +8,9 @@ title: Twitter API Lesson
   <div class="content">
     <div class="article-item">
       <header class="lesson-header">
-        <h2 class="lesson-title" itemprop="name">Table of Contents</h2>
+        <h2 class="lesson-title" itemprop="name">{{ site.title }}</h2>
       </header>
+      <h3>Table of Contents</h3>
       <ul>
       {% for lesson in site.data.twitter %}
         <li><a href="#{{ lesson.title }}">{{ lesson.title }}</a></li>
