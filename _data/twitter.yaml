@@ -27,7 +27,7 @@
   link-1-url: 'https://twitter.com'
   link-2-label: Twitter Mobile
   link-2-url: 'https://twitter.com/download'
-  image-1:
+  image-1: https://s3.amazonaws.com/kinlane-productions/twitter/lessons/twitter-home-page.png
   image-2: ''
   video: ''
   audio: ''
