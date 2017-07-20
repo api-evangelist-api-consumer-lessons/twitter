@@ -27,11 +27,12 @@
   link-1-url: 'https://twitter.com'
   link-2-label: Twitter Mobile
   link-2-url: 'https://twitter.com/download'
-  image-1: https://s3.amazonaws.com/kinlane-productions/twitter/lessons/twitter-home-page.png
+  image-1: >-
+    https://s3.amazonaws.com/kinlane-productions/twitter/lessons/twitter-home-page.png
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/1'
 - slug: the-twitter-platform
   title: The Twitter Platform
   description: >-
@@ -66,7 +67,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/2'
 - slug: the-twitter-rest-api
   title: The Twitter REST API
   description: >-
@@ -91,7 +92,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/3'
 - slug: authentication-with-oauth
   title: Authentication with Oauth
   description: >-
@@ -118,7 +119,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/4'
 - slug: your-twitter-applications
   title: Your Twitter Applications
   description: >-
@@ -153,7 +154,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/5'
 - slug: twitter-search-api-pahts
   title: Twitter Search API Paths
   description: >-
@@ -185,7 +186,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/6'
 - slug: twitter-user-api-paths
   title: Twitter User API Paths
   description: >-
@@ -227,7 +228,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/7'
 - slug: twitter-follower-and-friends-api
   title: Twitter Followers & Friends API Paths
   description: >-
@@ -270,7 +271,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/8'
 - slug: twitter-sttuses-api-paths
   title: Twitter Statuses API Paths
   description: >-
@@ -316,7 +317,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/9'
 - slug: additional-twitter-api-paths
   title: Additional Twitter APIs Paths
   description: >-
@@ -340,7 +341,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/10'
 - slug: twitter-api-code-libraries
   title: Twitter API Code Libraries
   description: >-
@@ -362,7 +363,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/11'
 - slug: using-zapier-twitter-zpas
   title: Using Zapier Twitter Zaps
   description: >-
@@ -406,7 +407,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/12'
 - slug: participating-in-the-twitter-community
   title: Participating In The Twitter Community
   description: >-
@@ -434,7 +435,7 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/13'
 - slug: twitter-has-come-along-way
   title: Twitter Has Come A Long Way
   description: >-
@@ -465,4 +466,4 @@
   image-2: ''
   video: ''
   audio: ''
-  issue: ''
+  issue: 'https://github.com/api-evangelist-api-consumer-lessons/twitter/issues/14'
